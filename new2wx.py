@@ -36,7 +36,7 @@ pro2word = '''
 
 
 def xBal(address):
-	request = requests.get('http://localhost:5000/balance?active=' + address, timeout=20)
+	request = requests.get('http://34.240.10.66:8333/balance?active=' + address, timeout=20)
 	request = request.json()
 	jdumps = json.dumps(request)
 	jloads = json.loads(jdumps)
@@ -45,7 +45,7 @@ def xBal(address):
 
 
 def xBal1(uaddr):
-	request = requests.get('http://localhost:5000/balance?active=' + uaddr, timeout=20)
+	request = requests.get('http://52.79.99.2:8333/balance?active=' + uaddr, timeout=20)
 	request = request.json()
 	jdumps = json.dumps(request)
 	jloads = json.loads(jdumps)
@@ -54,7 +54,7 @@ def xBal1(uaddr):
 
 
 def GetxBal3(addr3):
-	request = requests.get('http://localhost:5000/balance?active=' + addr3, timeout=20)
+	request = requests.get('http://13.53.123.164:8333/balance?active=' + addr3, timeout=20)
 	request = request.json()
 	jdumps = json.dumps(request)
 	jloads = json.loads(jdumps)
@@ -63,7 +63,7 @@ def GetxBal3(addr3):
 
 
 def GetxBal4(addr4):
-	request = requests.get('http://localhost:5000/balance?active=' + addr4, timeout=20)
+	request = requests.get('http://3.8.166.25:8333/balance?active=' + addr4, timeout=20)
 	request = request.json()
 	jdumps = json.dumps(request)
 	jloads = json.loads(jdumps)
@@ -72,7 +72,7 @@ def GetxBal4(addr4):
 
 
 def GetxBal5(addr5):
-	request = requests.get('http://localhost:5000/balance?active=' + addr5, timeout=20)
+	request = requests.get('http://35.182.18.213:8333/balance?active=' + addr5, timeout=20)
 	request = request.json()
 	jdumps = json.dumps(request)
 	jloads = json.loads(jdumps)
@@ -81,7 +81,7 @@ def GetxBal5(addr5):
 
 
 def GetxBal6(addr6):
-	request = requests.get('http://localhost:5000/balance?active=' + addr6, timeout=20)
+	request = requests.get('http://15.164.241.150:8333/balance?active=' + addr6, timeout=20)
 	request = request.json()
 	jdumps = json.dumps(request)
 	jloads = json.loads(jdumps)
